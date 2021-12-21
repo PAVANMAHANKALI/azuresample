@@ -29,7 +29,7 @@ public class HomeController {
 	}
 	@GetMapping("/home")
 	public String home() {
-	return "welcome to Home API";	
+	return "welcome to ANTS API";	
 	}
 	
 	@GetMapping("/hello")
